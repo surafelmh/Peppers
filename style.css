@@ -1,0 +1,126 @@
+/*
+Colors
+
+Dark Red: #8B0000
+Red: #C0392B
+Orange: #E67E22
+Yellow: #F1C40F
+Cream: #FFF8DC
+Dark Gray: #333333
+
+
+Fonts
+
+Headings: Georgia
+Body: Arial
+*/
+
+
+body
+{
+    background-color:#FFF8DC;
+    color:#333333;
+    font-family:Arial, sans-serif;
+}
+
+
+#container
+{
+    width:80%;
+    margin:auto;
+}
+
+
+header, aside, main, footer
+{
+    border:1px solid black;
+    box-sizing:border-box;
+}
+
+
+header
+{
+    width:100%;
+    background-color:#8B0000;
+    color:white;
+    padding:15px;
+}
+
+
+header h1
+{
+    font-family:Georgia, serif;
+}
+
+
+aside
+{
+    width:25%;
+    float:left;
+    clear:left;
+    min-height:33.3%;
+    background-color:#F1C40F;
+    padding:15px;
+}
+
+
+main
+{
+    clear:right;
+    float:right;
+    width:75%;
+    background-color:white;
+}
+
+
+footer
+{
+    width:100%;
+    clear:both;
+    background-color:#8B0000;
+    color:white;
+    text-align:center;
+    padding:10px;
+}
+
+
+#content1,#content2,#content3
+{
+    width:33%;
+    float:left;
+    overflow:scroll;
+    min-height:100%;
+    padding:15px;
+    box-sizing:border-box;
+}
+
+
+#midcontain
+{
+    width:100%;
+    clear:both;
+}
+
+
+h1,h2,h3
+{
+    font-family:Georgia, serif;
+}
+
+
+h2
+{
+    color:#C0392B;
+}
+
+
+a
+{
+    color:#8B0000;
+}
+
+
+a:hover
+{
+    color:#E67E22;
+}
